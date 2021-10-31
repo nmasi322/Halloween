@@ -43,24 +43,23 @@ svg{
     width: 140%;
     position: relative;
     left: 170px;
-    /* float: right; */
 }
 .ima{
     left: 20px;
     position: relative;
-    top: -540px;
+    top: -430px;
     width: 210%;
 }
 .ima1{
     position: relative;
-    left: 380px;
-    top: -1070px;
+    left: 350px;
+    top: -900px;
     width: 100%;
 }
 .ima2{
     left: 414px;
     position: relative;
-    top: -1050px;
+    top: -900px;
     width: 100%;
     transform: rotate(40deg)
 }
@@ -224,19 +223,31 @@ button{
 }
 
 @media(max-width: 425px){
+    nav h2{
+        position: relative;
+        top: -28px;
+    }
+    nav img{
+        width: 15%;
+        margin-top: 10px;
+    }
     svg{
         display: none;
     }
-    .row1 .col1{
+    .row {
+        width: 400px;
+    }
+    #hero-column{
         text-align: center;
-        width: 100%;
+        max-width: 100%;
+        margin-left: 15px;
     }
     .col1 h2{
         font-weight: 700;
         width: 100%;
     }
     .col1 p{
-        font-size: 28px;
+        font-size: 26px;
     }
     .ima{
         display: none;
@@ -249,7 +260,7 @@ button{
     }
     .column1{
         width: 100%;
-        margin: 0 0 10px 0;
+        margin: 0 0 5px 0;
         padding: 10px;
     }
     .row2{
@@ -262,10 +273,7 @@ button{
         height: 200vh;
     }
     .blur{
-        background: rgb(134, 134, 127); 
-        backdrop-filter: blur(8px);
         max-height: 190vh;
-        width: 100%;
         margin-left: 4px;
     }
 }
