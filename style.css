@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+
+
+body{
+    background: rgb(48, 48, 48);
+    background-size: cover;
+    max-height: 100vh;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+nav img{
+    width: 5%;
+}
+nav ul{
+    float: right;
+    margin-top: -4%;
+}
+nav li{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 15px;
+    cursor: pointer;
+}
+.column{
+    width: 50%;
+    margin-top: 80px;
+}
+.hero{
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin-left: 60px;
+    font-size: 23px;
+    margin-top: -4%;
+}
+svg{
+    width: 140%;
+    position: relative;
+    left: 170px;
+    /* float: right; */
+}
+.ima{
+    left: 20px;
+    position: relative;
+    top: -540px;
+    width: 210%;
+}
+.ima1{
+    position: relative;
+    left: 380px;
+    top: -1070px;
+    width: 100%;
+}
+.ima2{
+    left: 414px;
+    position: relative;
+    top: -1050px;
+    width: 100%;
+    transform: rotate(40deg)
+}
+.col1 h2{
+    margin-top: 60px;
+    line-height: -100px;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+button{
+    width: 200px;
+    background-color: rgba(221, 146, 6, 0.911);
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-height: 100vh;
+}
+.row{
+    max-height: 100vh;
+}
+.row2{
+    /* max-height: 70vh; */
+    padding: 30px;
+}
+.column1{
+    width: 25%;
+    border-radius: 30px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.column1:hover{
+    background: rgb(17, 17, 17);
+}
+.column1 img{
+    width: 40%;
+}
+.column1 h2{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+.background{
+    border-radius: 50px;
+}
+.blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px);
+    height: 50vh;
+    width: 1000px;
+}
+.column1 a{
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(221, 146, 6, 0.911);
+}
+
+
+
+@media(max-width: 991px){
+    .hello{
+        display: none;
+    }
+    svg{
+        top: 50px;
+    }
+    .ima{
+        top: -420px;
+        width: 200%;
+        left: 60px;
+    }
+    .ima1{
+        top: -910px;
+    }
+    .ima2{
+        top: -915px;
+    }
+    .background{
+        width: 800px;
+        height: 50vh;
+    }
+    .blur{
+        height: 100vh;
+    }
+    .column1{
+        width: 50%;
+    }
+}
+
+@media(max-width: 768px){
+    svg{
+        top: 100px;
+    }
+    .ima{
+        top: -230px;
+        width: 170%;
+        left: 110px;
+    }
+    .ima1{
+        top: -550px;
+        left: 330px;
+    }
+    .ima2{
+        top: -545px;
+        left: 380px;
+    }
+    .background{
+        width: 800px;
+        height: 50vh;
+    }
+    .blur{
+        height: 120vh;
+    }
+    .column1{
+        width: 50%;
+    }
+    .row2{
+        position: relative;
+        top: 80px;
+    }
+}
+
+@media(max-width: 530px){
+    svg{
+        top: 100px;
+    }
+    /* .col1{
+        width: 50%;
+    } */
+    .col1 h2{
+        font-weight: 700;
+    }
+    .col1 p{
+        font-size: 28px;
+    }
+    .ima{
+        top: -200px;
+        width: 170%;
+        left: 110px;
+    }
+    .ima1{
+        top: -500px;
+        left: 300px;
+    }
+    .ima2{
+        top: -505px;
+        left: 360px;
+    }
+    .column1{
+        width: 50%;
+    }
+    .row2{
+        position: relative;
+        top: 200px;
+    }
+}
+
+@media(max-width: 425px){
+    svg{
+        display: none;
+    }
+    .row1 .col1{
+        text-align: center;
+        width: 100%;
+    }
+    .col1 h2{
+        font-weight: 700;
+        width: 100%;
+    }
+    .col1 p{
+        font-size: 28px;
+    }
+    .ima{
+        display: none;
+    }
+    .ima1{
+        display: none;
+    }
+    .ima2{
+        display: none;
+    }
+    .column1{
+        width: 100%;
+        margin: 0 0 10px 0;
+        padding: 10px;
+    }
+    .row2{
+        position: relative;
+        top: 100px;
+        height: 600vh;
+    }
+    .background{
+        width: 100%;
+        height: 200vh;
+    }
+    .blur{
+        background: rgb(134, 134, 127); 
+        backdrop-filter: blur(8px);
+        max-height: 190vh;
+        width: 100%;
+        margin-left: 4px;
+    }
+}
